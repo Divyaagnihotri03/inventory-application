@@ -1,4 +1,4 @@
-# StockFlow — Inventory & Order Management System
+#  Inventory & Order Management System
 
 > A production-ready, full-stack inventory management system built with **React 18**, **FastAPI**, **PostgreSQL 15**, and **Docker** — designed for real-world operational workflows.
 
