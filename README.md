@@ -89,18 +89,16 @@ The frontend communicates with the backend exclusively through a versioned REST 
 ### Local Setup
 
 ```bash
-# 1. Clone the repository
-git clone <your-repo-url>
-cd inventory-app
 
-# 2. Configure environment variables
+
+# 1. Configure environment variables
 cp .env.example .env
 # Default values in .env work for local development — no changes required
 
-# 3. Build and start all services
+# 2. Build and start all services
 docker compose up --build
 
-# 4. Access the application
+# 3. Access the application
 #    Frontend:        http://localhost:3000
 #    API (Swagger):   http://localhost:8000/docs
 #    API (ReDoc):     http://localhost:8000/redoc
